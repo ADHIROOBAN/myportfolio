@@ -1,10 +1,8 @@
-/* Reset default browser styles */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Global styles */
 body {
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.5;
@@ -18,7 +16,7 @@ body {
     padding: 20px;
 }
 
-/* Header styles */
+
 header {
     background-color: #333;
     color: #fff;
@@ -34,15 +32,15 @@ header {
     font-size: 24px;
     font-weight: bold;
     display: inline-block;
-    z-index: 1; /* Set a higher z-index for the text */
+    z-index: 1; 
     position: relative;
-    color: white; /* Adjust text color as needed */
-    background-color: #333; /* Add a semi-transparent background */
-    padding: 10px; /* Add padding to make the text more readable */
+    color: white; 
+    background-color: #333; 
+    padding: 10px; 
 }
 
 nav {
-    overflow: hidden; /* Add overflow property to contain the floated elements */
+    overflow: hidden; 
 }
 
 nav ul {
@@ -67,7 +65,7 @@ nav ul li a:hover {
     color: #ccc;
 }
 
-/* Profile section styles */
+
 #profile {
     padding: 50px 0;
 }
@@ -91,7 +89,7 @@ nav ul li a:hover {
     height: auto;
 }
 
-/* About section styles */
+
 #about {
     background-color: #fff;
     padding: 40px 20px;
@@ -125,7 +123,7 @@ nav ul li a:hover {
     }
 }
 
-/* Portfolio section styles */
+
 #portfolio {
     background-color: #f5f5f5;
     padding: 40px 20px;
@@ -208,18 +206,18 @@ nav ul li a:hover {
 
 .photo-gallery img {
     display: inline-block;
-    width: 50px; /* Adjust the width as per your preference */
+    width: 50px; 
     height: 75px;
-    margin-right: 10px; /* Adjust the spacing between photos */
+    margin-right: 10px; 
 }
 
 .scroll-container {
     display: inline-block;
-    width: 75%; /* Adjust this value based on your content */
+    width: 75%; 
     transition: transform 0.5s ease;
 }
 
-/* Style your content elements here */
+
 .scroll-container > img {
     display: inline-block;
     width: 50vw;
@@ -229,7 +227,7 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
-/* Contact section styles */
+
 #contact {
     background-color: #fff;
     padding: 40px 20px;
@@ -259,7 +257,7 @@ nav ul li a:hover {
     margin-right: 10px;
 }
 
-/* Footer styles */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -286,4 +284,13 @@ footer a:hover {
     width: 50px;
     height: auto;
     margin-left: 10px;
+}
+
+.snapshot img[src="project21.jpg"],
+.snapshot img[src="project22.png"],
+.snapshot img[src="project23.png"],
+.snapshot img[src="project24.png"] {
+  
+    height: 400px;
+    width: 300px;
 }
